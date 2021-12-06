@@ -1,0 +1,27 @@
+---
+title: "COVID-19"
+author: "Alex Liang"
+date: "01/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+w<- read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv")%>%filter(!is.na(new_cases_smoothed))
+```
+
+```{r}
+w=w[,colSums(is.na(w))!=nrow(w)]
+w=w%>%rename(Country=location)
+write.csv("CovidCleanW",row.names = FALSE)
+```
+
+
+
