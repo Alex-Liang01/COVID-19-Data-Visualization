@@ -29,6 +29,6 @@ This is a plot of log10 of number of deaths and number of cases per day where th
 This is the race chart of the top 15 countries with the most COVID-19 cases on September 17, 2021.
 ![Top 15 Countries with most COVID-19 cases](https://user-images.githubusercontent.com/95319198/148664595-f3b7d6d2-b653-46e4-af7a-2c173e602a05.gif)
 
-This is the world map plot that shows the amount of total COVID-10 cases for a Country per million
-![image](https://user-images.githubusercontent.com/95319198/144782357-1ab6181a-dfae-40fb-9a1a-e5cc0b3c08bf.png)
+This is the world map gif that shows the amount of total COVID-10 cases for a Country per million each month.
+![Worldwide COVID-19 Cases per million Monthly](https://user-images.githubusercontent.com/95319198/148664846-0060b123-8790-482f-a265-53222be096d6.gif)
 
