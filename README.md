@@ -26,7 +26,7 @@ In this next book, there is three plots. A plot of the number of deaths and numb
 This is a plot of log10 of number of deaths and number of cases per day where the user can select the Countries that they want to compare.
 ![image](https://user-images.githubusercontent.com/95319198/144782576-5239868e-f532-464b-b870-33e753c296cf.png)  
 
-This is the race chart of the top 15 countries with the most COVID-19 cases on September 17, 2021.
+This is the race chart gif of the top 15 countries with the most COVID-19 cases each month.
 ![Top 15 Countries with most COVID-19 cases](https://user-images.githubusercontent.com/95319198/148664595-f3b7d6d2-b653-46e4-af7a-2c173e602a05.gif)
 
 This is the world map gif that shows the amount of total COVID-10 cases for a Country per million each month.
