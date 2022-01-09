@@ -9,7 +9,7 @@ Hannah Ritchie, Edouard Mathieu, Lucas Rodés-Guirao, Cameron Appel, Charlie Gia
 I tidied the data in R by removing any columns that have only NA values and renamed the locations variable into Country so that Tableau would recoginize the variable as a Country. I then saved the dataframe to the output file Covid-Clean.csv so that I could use it in Tableau.  
 
 ```
-w<- read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv")%>%filter(!is.na(new_cases_smoothed))
+w= read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv")%>%filter(!is.na(new_cases_smoothed))
 w=w[,colSums(is.na(w))!=nrow(w)]
 w=w%>%rename(Country=location)
 write.csv(w,"CovidCleanW.csv",row.names = FALSE)
