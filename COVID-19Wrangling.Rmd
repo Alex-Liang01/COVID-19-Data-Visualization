@@ -14,7 +14,7 @@ library(tidyverse)
 ```
 
 ```{r}
-w<- read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv")%>%filter(!is.na(new_cases_smoothed))
+w= read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv")%>%filter(!is.na(new_cases_smoothed))
 ```
 
 ```{r}
