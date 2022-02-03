@@ -17,11 +17,11 @@ write.csv(w,"CovidCleanW.csv",row.names = FALSE)
 ## Plots
 Using Tableau, I created these visualizations of the COVID-19 data up to date to December 1, 2021.
 
-This is an animation plot of monthly new COVID-19 cases worldwide. https://public.tableau.com/app/profile/alex6894/viz/Book1_16384946591580/Sheet1?publish=yes
+In this book, there is four plots. There is a plot of monthly new COVID-19 cases worldwide. A plot of the number of deaths and number pf cases per day where the user can selecct the Countries that they want to compare, an animated race chart of the top 15 Countries with the most COVID-19 cases cumulated over time, and a world map plot where the user can see the amount of total COVID-19 cases for a Country on a specific day per million by hovering over the Country. https://public.tableau.com/app/profile/alex6894/viz/Book2_16385022616680/Sheet3
+
+There is an animation plot of monthly new COVID-19 cases worldwide.
 ![New COVID-19 Cases](https://user-images.githubusercontent.com/95319198/148664590-3143a16a-668c-4fad-8e82-21f72ca7a442.gif)
 
-
-In this next book, there is three plots. A plot of the number of deaths and number pf cases per day where the user can selecct the Countries that they want to compare, an animated race chart of the top 15 Countries with the most COVID-19 cases cumulated over time, and a world map plot where the user can see the amount of total COVID-19 cases for a Country on a specific day per million by hovering over the Country. https://public.tableau.com/app/profile/alex6894/viz/Book2_16385022616680/Sheet3
 
 This is a plot of log10 of number of deaths and number of cases per day where the user can select the Countries that they want to compare.
 ![image](https://user-images.githubusercontent.com/95319198/144782576-5239868e-f532-464b-b870-33e753c296cf.png)  
